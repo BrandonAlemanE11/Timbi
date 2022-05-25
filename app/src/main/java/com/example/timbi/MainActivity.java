@@ -11,7 +11,7 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn1,btn2,btn3,btn4,btn5, btn7, btn9,btn6,btn8,btn10,btn11,btn12,btn15,btn16,btn14,btn17,btn13;
+    Button btn1,btn2,btn3,btn4,btn5, btn7, btn9,btn6,btn8,btn10,btn11,btn12,btn15,btn16,btn14,btn13,btn19, btn20, btn21, btn22, btn25, btn23, btn24, btn26, btn18, btn17;
     TextView txtjugador1, txtjugador2;
     float turno = 1;
     int cuadro1 = 0;
@@ -46,7 +46,16 @@ public class MainActivity extends AppCompatActivity {
         btn16 = findViewById(R.id.btn16);
         btn14 = findViewById(R.id.btn14);
         btn17 = findViewById(R.id.btn17);
-        btn13 = findViewById(R.id.btn13);
+        btn19 = findViewById(R.id.btn19);
+        btn20 = findViewById(R.id.btn20);
+        btn21 = findViewById(R.id.btn21);
+        btn22 = findViewById(R.id.btn22);
+        btn25 = findViewById(R.id.btn25);
+        btn23 = findViewById(R.id.btn23);
+        btn24 = findViewById(R.id.btn24);
+        btn26 = findViewById(R.id.btn26);
+        btn18 = findViewById(R.id.btn18);
+        btn17 = findViewById(R.id.btn17);
 
         txtjugador1 = findViewById(R.id.txtjugador1);
         txtjugador2 = findViewById(R.id.txtjugador2);
@@ -429,31 +438,221 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     public void btn19(View view) {
+        if(turno == 1 || turno == 1.5){
+            turno = (float) (turno + 0.5);
+            Comprobar();
+            btn19.setEnabled(false);
+        }
+        else{
+            if(turno == 2){
+                turno = (float) (turno - 2);
+                Comprobar();
+                btn19.setEnabled(false);
+            }
+            else{
+                if(turno == 0){
+                    turno = (float) (turno + 1);
+                    Comprobar();
+                    btn19.setEnabled(false);
+                }
+            }
+        }
     }
 
     public void btn20(View view) {
+        if(turno == 1 || turno == 1.5){
+            turno = (float) (turno + 0.5);
+            Comprobar();
+            btn20.setEnabled(false);
+        }
+        else{
+            if(turno == 2){
+                turno = (float) (turno - 2);
+                Comprobar();
+                btn20.setEnabled(false);
+            }
+            else{
+                if(turno == 0){
+                    turno = (float) (turno + 1);
+                    Comprobar();
+                    btn20.setEnabled(false);
+                }
+            }
+        }
     }
 
     public void btn21(View view) {
+        if(turno == 1 || turno == 1.5){
+            turno = (float) (turno + 0.5);
+            Comprobar();
+            btn21.setEnabled(false);
+        }
+        else{
+            if(turno == 2){
+                turno = (float) (turno - 2);
+                Comprobar();
+                btn21.setEnabled(false);
+            }
+            else{
+                if(turno == 0){
+                    turno = (float) (turno + 1);
+                    Comprobar();
+                    btn21.setEnabled(false);
+                }
+            }
+        }
     }
 
     public void btn22(View view) {
+        if(turno == 1 || turno == 1.5){
+            turno = (float) (turno + 0.5);
+            Comprobar();
+            btn22.setEnabled(false);
+        }
+        else{
+            if(turno == 2){
+                turno = (float) (turno - 2);
+                Comprobar();
+                btn22.setEnabled(false);
+            }
+            else{
+                if(turno == 0){
+                    turno = (float) (turno + 1);
+                    Comprobar();
+                    btn22.setEnabled(false);
+                }
+            }
+        }
     }
     public void btn25(View view) {
+        if(turno == 1 || turno == 1.5){
+            turno = (float) (turno + 0.5);
+            Comprobar();
+            btn25.setEnabled(false);
+        }
+        else{
+            if(turno == 2){
+                turno = (float) (turno - 2);
+                Comprobar();
+                btn25.setEnabled(false);
+            }
+            else{
+                if(turno == 0){
+                    turno = (float) (turno + 1);
+                    Comprobar();
+                    btn25.setEnabled(false);
+                }
+            }
+        }
     }
 
     public void btn23(View view) {
+        if(turno == 1 || turno == 1.5){
+            turno = (float) (turno + 0.5);
+            Comprobar();
+            btn23.setEnabled(false);
+        }
+        else{
+            if(turno == 2){
+                turno = (float) (turno - 2);
+                Comprobar();
+                btn23.setEnabled(false);
+            }
+            else{
+                if(turno == 0){
+                    turno = (float) (turno + 1);
+                    Comprobar();
+                    btn23.setEnabled(false);
+                }
+            }
+        }
     }
 
     public void btn24(View view) {
+        if(turno == 1 || turno == 1.5){
+            turno = (float) (turno + 0.5);
+            Comprobar();
+            btn24.setEnabled(false);
+        }
+        else{
+            if(turno == 2){
+                turno = (float) (turno - 2);
+                Comprobar();
+                btn24.setEnabled(false);
+            }
+            else{
+                if(turno == 0){
+                    turno = (float) (turno + 1);
+                    Comprobar();
+                    btn24.setEnabled(false);
+                }
+            }
+        }
     }
 
     public void btn26(View view) {
+        if(turno == 1 || turno == 1.5){
+            turno = (float) (turno + 0.5);
+            Comprobar();
+            btn26.setEnabled(false);
+        }
+        else{
+            if(turno == 2){
+                turno = (float) (turno - 2);
+                Comprobar();
+                btn26.setEnabled(false);
+            }
+            else{
+                if(turno == 0){
+                    turno = (float) (turno + 1);
+                    Comprobar();
+                    btn26.setEnabled(false);
+                }
+            }
+        }
     }
 
     public void btn18(View view) {
+        if(turno == 1 || turno == 1.5){
+            turno = (float) (turno + 0.5);
+            Comprobar();
+            btn18.setEnabled(false);
+        }
+        else{
+            if(turno == 2){
+                turno = (float) (turno - 2);
+                Comprobar();
+                btn18.setEnabled(false);
+            }
+            else{
+                if(turno == 0){
+                    turno = (float) (turno + 1);
+                    Comprobar();
+                    btn18.setEnabled(false);
+                }
+            }
+        }
     }
 
     public void btn17(View view) {
+        if(turno == 1 || turno == 1.5){
+            turno = (float) (turno + 0.5);
+            Comprobar();
+            btn17.setEnabled(false);
+        }
+        else{
+            if(turno == 2){
+                turno = (float) (turno - 2);
+                Comprobar();
+                btn17.setEnabled(false);
+            }
+            else{
+                if(turno == 0){
+                    turno = (float) (turno + 1);
+                    Comprobar();
+                    btn17.setEnabled(false);
+                }
+            }
+        }
     }
 }
