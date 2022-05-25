@@ -174,25 +174,6 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
-
-    public void btn25(View view) {
-    }
-
-    public void btn23(View view) {
-    }
-
-    public void btn24(View view) {
-    }
-
-    public void btn26(View view) {
-    }
-
-    public void btn18(View view) {
-    }
-
-    public void btn17(View view) {
-    }
-
     public void btn10(View view) {
         if(turno == 1 || turno == 1.5){
             cuadro3 = cuadro3 + 1;
@@ -398,19 +379,6 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
-
-    public void btn19(View view) {
-    }
-
-    public void btn20(View view) {
-    }
-
-    public void btn21(View view) {
-    }
-
-    public void btn22(View view) {
-    }
-
     public void btn13(View view) {
         if(turno == 1 || turno == 1.5){
             cuadro5 = cuadro5 + 1;
@@ -440,5 +408,52 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void btn14(View view) {
+        if(turno == 1 || turno == 1.5){
+            turno = (float) (turno + 0.5);
+            Comprobar();
+            btn14.setEnabled(false);
+        }
+        else{
+            if(turno == 2){
+                turno = (float) (turno - 2);
+                Comprobar();
+                btn14.setEnabled(false);
+            }
+            else{
+                if(turno == 0){
+                    turno = (float) (turno + 1);
+                    Comprobar();
+                    btn14.setEnabled(false);
+                }
+            }
+        }
+    }
+    public void btn19(View view) {
+    }
+
+    public void btn20(View view) {
+    }
+
+    public void btn21(View view) {
+    }
+
+    public void btn22(View view) {
+    }
+    public void btn25(View view) {
+    }
+
+    public void btn23(View view) {
+    }
+
+    public void btn24(View view) {
+    }
+
+    public void btn26(View view) {
+    }
+
+    public void btn18(View view) {
+    }
+
+    public void btn17(View view) {
     }
 }
